@@ -1,9 +1,16 @@
 
+let friends = ['Alan','Mark','Julia','Bella']
+console.log(friends)
 
-let firstName = prompt('Digite o seu nome')
-let greeting = 'HI'
-document.getElementById("greeting").innerHTML = greeting + ' '+ firstName
-//console.log(firstName)
+friends[1] = 'Anna' // Replace
+friends[4] = 'Maverick' // add Itens
+
+friends[5] = 1
+console.log(friends)
+console.log(friends[1])
+
+
+
 
 
 
