@@ -1,14 +1,20 @@
-let celsius = 0
-let fahrenheit = 0
+let grade = prompt('digite a nota do aluno')
 
-celsius = parseFloat(prompt('Digite a temperatua em Celsius'))
-fahrenheit = (celsius * 1.8) + 32
-
-alert('A temperatura em fahrenheit é de ' + fahrenheit.toFixed(2)) 
-
-
-
-
-
-
-
+if (grade > 100){
+    alert('Nota invalida')
+}
+else if (grade  >= 90){
+   alert('aluno nota A')
+}
+else if (grade  >= 80){
+    alert('aluno nota B')
+ }
+ else if (grade  >= 70){
+    alert('aluno nota C')
+ }
+ else if (grade  >= 60){
+    alert('aluno nota D')
+ }
+ else {
+    alert('aluno nota F')
+ }
