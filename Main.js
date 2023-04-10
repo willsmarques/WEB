@@ -1,20 +1,13 @@
-let grade = prompt('digite a nota do aluno')
+let valorConta = 0
+let gorjeta = 0
+let valorTotal = 0
 
-if (grade > 100){
-    alert('Nota invalida')
-}
-else if (grade  >= 90){
-   alert('aluno nota A')
-}
-else if (grade  >= 80){
-    alert('aluno nota B')
- }
- else if (grade  >= 70){
-    alert('aluno nota C')
- }
- else if (grade  >= 60){
-    alert('aluno nota D')
- }
- else {
-    alert('aluno nota F')
- }
+
+ valorConta = parseFloat(prompt('Digite o valor da conta: '))
+ gorjeta = parseFloat(prompt('Digite a gorjeta (decimal)%'))
+
+ gorjeta = (valorConta * gorjeta) /100
+
+ valorTotal = valorConta + gorjeta
+ 
+ alert('o valor total com  gorjeta é de $ ' + valorTotal)
