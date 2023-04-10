@@ -1,4 +1,4 @@
-let valorConta = 0
+/*let valorConta = 0
 let gorjeta = 0
 let valorTotal = 0
 
@@ -10,4 +10,4 @@ let valorTotal = 0
 
  valorTotal = valorConta + gorjeta
  
- alert('o valor total com  gorjeta é de $ ' + valorTotal)
+ alert('o valor total com  gorjeta é de $ ' + valorTotal)*/
