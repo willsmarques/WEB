@@ -1,16 +1,10 @@
 
 
-///let firstName = prompt('Digite o seu Primeiro nome:')
-///let lastName = prompt('Digite o seu sobre nome:')
-//let age = parseInt(prompt('Digite a sua idade: '))
-//const age2 = 2
-
-///age = age +age2
-
-
+let firstName = prompt('Digite o seu nome')
+let greeting = 'HI'
+document.getElementById("greeting").innerHTML = greeting + ' '+ firstName
 //console.log(firstName)
-//console.log(lastName)
-//console.log(age)
+
 
 
 
