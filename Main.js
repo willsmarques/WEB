@@ -1,13 +1,11 @@
-/*let valorConta = 0
-let gorjeta = 0
-let valorTotal = 0
+let colorList = []
 
 
- valorConta = parseFloat(prompt('Digite o valor da conta: '))
- gorjeta = parseFloat(prompt('Digite a gorjeta (decimal)%'))
+for (let i = 1; i<=3;i++){
 
- gorjeta = (valorConta * gorjeta) /100
-
- valorTotal = valorConta + gorjeta
- 
- alert('o valor total com  gorjeta é de $ ' + valorTotal)*/
+    let userColor = prompt('Digite a cor ' + i + ':')
+    colorList.push(userColor)
+    //colorList[i] = userColorred
+}
+document.getElementById('listacores').innerHTML = colorList
+//alert('Sua lista de cores ficou assim: ' + colorList)
