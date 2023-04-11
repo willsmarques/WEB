@@ -1,8 +1,8 @@
-let numberList = document.getElementById('numberList')
 
+function changeColor(){
 
-for(i=1; i<= 5; i++){
-   let listItem =  document.createElement('li')
-   listItem.textContent = prompt("Digite sua fruta")
-   numberList.appendChild(listItem)
+    let titleH1 = document.getElementById('changeh1')
+    titleH1.style.color = 'red' 
 }
+
+
