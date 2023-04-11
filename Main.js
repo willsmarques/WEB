@@ -1,8 +1,6 @@
-
-function changeColor(){
-
-    let titleH1 = document.getElementById('changeh1')
-    titleH1.style.color = 'red' 
+function changBackgroundColor(){
+    let colors = ['red','green','yellow','orange','pink']
+    let randomColor = colors[Math.floor(Math.random() * colors.length)]
+    document.body.style.backgroundColor = randomColor
 }
-
 
