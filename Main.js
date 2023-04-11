@@ -11,7 +11,7 @@ function checkGuess(){
 
     if  (guess ==  randomNumber){
 
-       message.innerHTML = 'Voce acertou o numero, com ' + tries + 'Tentativas'  
+       message.innerHTML = 'Voce acertou o número, com ' + tries + ' Tentativas'  
 
     }
     else if (guess < randomNumber){
