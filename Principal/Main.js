@@ -1,3 +1,4 @@
+
 let checkButton = document.getElementById('check-button')
 let ageInput = document.getElementById('age-input')
 
@@ -10,4 +11,3 @@ checkButton.addEventListener('click',function(){
        ageInput.value = ''
 
 })
-
