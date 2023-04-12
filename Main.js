@@ -1,29 +1,13 @@
-let randomNumber = Math.floor(Math.random() *100)
-let tries = 0
-//console.log(randomNumber)
+let checkButton = document.getElementById('check-button')
+let ageInput = document.getElementById('age-input')
+
+checkButton.addEventListener('click',function(){
 
 
-function checkGuess(){
+       let age = ageInput.value
+       let message = (age >= 18) ? 'You are and adult' : 'You are not and adult'
+       alert(message)
+       ageInput.value = ''
 
-    let guess = document.getElementById("guess").value
-    let message = document.getElementById('message')
-    tries++
-
-    if  (guess ==  randomNumber){
-
-       message.innerHTML = 'Voce acertou o número, com ' + tries + ' Tentativas'  
-
-    }
-    else if (guess < randomNumber){
-
-        message.innerHTML = 'Valor acima do escolhido'  
-
-    }
-    else {
-
-        message.innerHTML = 'Valor abaixo  do escolhido'  
-
-    }
-
-}
+})
 
