@@ -28,5 +28,5 @@ calculateButton.addEventListener('click', function() {
         result = 'Invalid Operator'
   }
 
-  resultDiv.innerHTML = 'The result is ' + result
+  resultDiv.innerHTML = 'The result is ' + Math.round(result).toFixed(2)
 });
