@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandalhas à Venda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sandalhas à Venda</h1>
+    </header>
+    <main>
+        <section id="gallery">
+          <div class="product">
+            <div >
+                <img src="Imagem/1.jpg" alt="Sandalha 1" class="product-image">
+            </div>
+              <div>
+                <img src="Imagem/6.jpg" alt="Sandalha 1" class="product-image">
+            </div>
+            <p><p class="product-price">Sandalha cordinha vermelha - <span>R$ 55,00</span></p></p>
+          </div>
+            <div class="product">
+                <img src="Imagem/2.jpg" alt="Sandalha 2" class="product-image">
+                <p class="product-price">Sandalha 4 - <span>R$ 55,00</span></p>
+            </div>
+            <div class="product">
+                <img src="Imagem/4.jpg" alt="Sandalha 3" class="product-image">
+                <p class="product-price">Sandalha 4 - <span>R$ 55,00</span></p>
+            </div>
+            <div class="product">
+                <img src="Imagem/5.jpg" alt="Sandalha 4" class="product-image">
+                <p class="product-price">Sandalha 4 - <span>R$ 55,00</span></p>
+            </div>
+            <!-- Adicione mais sandálias seguindo o mesmo padrão -->
+        </section>
+        <section id="gallery">
+          <div class="product">
+              <img src="Imagem/6.jpg" alt="Sandalha 1" class="product-image">
+              <p class="product-price">Sandalha 4 - <span>R$ 55,00</span></p>
+          </div>
+          <div class="product">
+              <img src="Imagem/7.jpg" alt="Sandalha 2" class="product-image">
+              <p class="product-price">Sandalha 4 - <span>R$ 55,00</span></p>
+          </div>
+          <div class="product">
+              <img src="Imagem/8.jpg" alt="Sandalha 3" class="product-image">
+              <p class="product-price">Sandalha 4 - <span>R$ 55,00</span></p>
+          </div>
+          <div class="product">
+              <img src="Imagem/9.jpg" alt="Sandalha 4" class="product-image">
+              <p class="product-price">Sandalha 4 - <span>R$ 55,00</span></p>
+          </div>
+      </section>
+
+      <section id="order-form">
+        <h2>Faça seu pedido</h2>
+        <form action="processar_pedido.php" method="post">
+            <label for="sandalias">Selecione a sandália:</label>
+            <select id="sandalias" name="sandalias">
+                <option value="Sandalha 1">Sandalha cordinha vermelha</option>
+                <option value="Sandalha 2">Sandalha 2</option>
+                <option value="Sandalha 3">Sandalha 3</option>
+                <option value="Sandalha 4">Sandalha 4</option>
+                <!-- Adicione mais opções para outras sandálias -->
+            </select>
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" name="quantidade" min="1" value="1">
+            <input type="submit" value="Comprar">
+        </form>
+    </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Juliana Alves</p>
+    </footer>
+</body>
+</html>
+
